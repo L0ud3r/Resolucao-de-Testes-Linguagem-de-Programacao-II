@@ -134,11 +134,15 @@ namespace Estufa
     class Estufas
     {
         #region Attributes
-        static List<Estufa> estufas = new List<Estufa>();
+        static List<Estufa> estufas;
         #endregion
 
         //Review
         #region Constructors
+        static Estufas()
+        {
+            estufas = new List<Estufa>();
+        }
         #endregion
 
         #region Methods

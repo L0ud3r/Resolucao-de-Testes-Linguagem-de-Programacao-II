@@ -1,0 +1,7 @@
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\bin\Debug\Exame_Especial_ESIN_LP2_2015_2016.exe.config
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\bin\Debug\Exame_Especial_ESIN_LP2_2015_2016.exe
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\bin\Debug\Exame_Especial_ESIN_LP2_2015_2016.pdb
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\obj\Debug\Exame_Especial_ESIN_LP2_2015_2016.csprojAssemblyReference.cache
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\obj\Debug\Exame_Especial_ESIN_LP2_2015_2016.csproj.CoreCompileInputs.cache
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\obj\Debug\Exame_Especial_ESIN_LP2_2015_2016.exe
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Exame_Especial_ESIN_LP2_2015_2016\obj\Debug\Exame_Especial_ESIN_LP2_2015_2016.pdb
