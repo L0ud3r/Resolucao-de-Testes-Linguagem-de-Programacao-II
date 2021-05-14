@@ -10,7 +10,6 @@ namespace Exame_Especial_ESIN_LP2_2015_2016
     {
         static void Main(string[] args)
         {
-            Atividades.AddNewAtividade();
         }
     }
 }
