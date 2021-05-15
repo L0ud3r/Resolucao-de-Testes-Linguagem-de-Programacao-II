@@ -166,10 +166,6 @@ namespace Teste_LP2N_2018_2019
 
             return true;
         }
-        public static void TopTen(LOCAL regiao)
-        {
-            //To do...
-        }
         #endregion
     }
     class Apreensao
@@ -251,10 +247,15 @@ namespace Teste_LP2N_2018_2019
             else if (aux == 5) a.Local = LOCAL.angola;
 
             //quantidade
-            Console.WriteLine("Quantidade de " + a.CodigoDroga + " apreendida: ");
-            a.Quantidade = int.Parse(Console.ReadLine());
-
-            if (a.Quantidade <= 0) ;//throw exception
+            try
+            {
+                Console.WriteLine("Quantidade de " + a.CodigoDroga + " apreendida: ");
+                a.Quantidade = int.Parse(Console.ReadLine());
+            }
+            catch(TrafficInvalidException e)
+            {
+                Console.WriteLine("Erro - " + e.Message);
+            }
 
             if (!Apreensoes.VerificaApreensaoExiste(a)) return null;
 
@@ -361,6 +362,24 @@ namespace Teste_LP2N_2018_2019
 
             s.Close();
         }
+        public static void TopTen(LOCAL local)
+        {
+            List<Apreensao> auxList = new List<Apreensao>();
+
+            foreach(Apreensao aux in apreensoes)
+            {
+                if (aux.Local == local) auxList.Add(aux);
+            }
+
+            auxList.Sort(new MyComparer());
+
+            Console.WriteLine("TOP TEN Traficantes:\n");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i.ToString() + " - " + auxList[i].Traficante.Nome);
+            }
+        }
+
         #endregion
     }
     class InfoAux
@@ -399,6 +418,16 @@ namespace Teste_LP2N_2018_2019
         public int Compare(Apreensao x, Apreensao y)
         {
             return (x.Quantidade > y.Quantidade ? 1 : (x.Quantidade == y.Quantidade ? 0 : -1));
+        }
+    }
+    class TrafficInvalidException : ApplicationException
+    {
+        public TrafficInvalidException() : base ("Quantidade de droga invalida") { }
+        public TrafficInvalidException(string s) : base(s) { }
+
+        public TrafficInvalidException(string s, Exception e) 
+        {
+            throw new TrafficInvalidException(e.Message + "-" + s); 
         }
     }
 }
