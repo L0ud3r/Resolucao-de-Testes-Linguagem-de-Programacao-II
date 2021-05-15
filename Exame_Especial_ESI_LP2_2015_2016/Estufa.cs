@@ -235,7 +235,7 @@ namespace Estufa
         /// </summary>
         public static void SalvarDados()
         {
-            Stream s = File.Open("file.bin", FileMode.Create, FileAccess.ReadWrite);
+            Stream s = File.Open("Teste1.bin", FileMode.Create, FileAccess.ReadWrite);
             BinaryFormatter bfw = new BinaryFormatter();
             bfw.Serialize(s, estufas);
         }
