@@ -238,6 +238,8 @@ namespace Estufa
             Stream s = File.Open("Teste1.bin", FileMode.Create, FileAccess.ReadWrite);
             BinaryFormatter bfw = new BinaryFormatter();
             bfw.Serialize(s, estufas);
+
+            s.Close();
         }
         #endregion
     }

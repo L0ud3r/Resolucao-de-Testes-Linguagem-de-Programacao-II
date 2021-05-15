@@ -258,7 +258,7 @@ namespace Exame_Especial_ESIN_LP2_2015_2016
                 min = max;
                 max = auxDate;
             }
-
+            
             int counter = 0;
             foreach (Atividade aux in atividades)
             {
@@ -300,6 +300,8 @@ namespace Exame_Especial_ESIN_LP2_2015_2016
             Stream s = File.Open("Teste2.txt", FileMode.Create, FileAccess.ReadWrite);
             BinaryFormatter bfw = new BinaryFormatter();
             bfw.Serialize(s, atividades);
+
+            s.Close();
         }
         #endregion
     }

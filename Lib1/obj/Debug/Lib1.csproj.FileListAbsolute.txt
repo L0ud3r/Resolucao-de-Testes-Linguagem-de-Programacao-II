@@ -1,0 +1,5 @@
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Lib1\bin\Debug\Lib1.dll
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Lib1\bin\Debug\Lib1.pdb
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Lib1\obj\Debug\Lib1.csproj.CoreCompileInputs.cache
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Lib1\obj\Debug\Lib1.dll
+C:\Users\playd\Desktop\eManuals\Linguagem de Programação II\Programas e exercicios\TestesAnoPassadoResolucao\TestesResolucao\Lib1\obj\Debug\Lib1.pdb
