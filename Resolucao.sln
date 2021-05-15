@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame_Especial_ESIN_LP2_201
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_LP2N_2018_2019", "Teste_LP2N_2018_2019\Teste_LP2N_2018_2019.csproj", "{50ED3A29-E147-48A7-BD08-D4889C73EBCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib1", "Lib1\Lib1.csproj", "{EFC7D43A-A98C-4E31-A972-CDCA0D6831E3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{50ED3A29-E147-48A7-BD08-D4889C73EBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50ED3A29-E147-48A7-BD08-D4889C73EBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50ED3A29-E147-48A7-BD08-D4889C73EBCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFC7D43A-A98C-4E31-A972-CDCA0D6831E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFC7D43A-A98C-4E31-A972-CDCA0D6831E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFC7D43A-A98C-4E31-A972-CDCA0D6831E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFC7D43A-A98C-4E31-A972-CDCA0D6831E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
