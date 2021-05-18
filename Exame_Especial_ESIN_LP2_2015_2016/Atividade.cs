@@ -434,7 +434,6 @@ namespace Exame_Especial_ESIN_LP2_2015_2016
                     case 5:
                         Console.Clear();
                         Atividades.SalvarDados();
-                        Atividades.SalvarDados();
                         Console.WriteLine("\nPressione qualquer botao para continuar");
                         Console.ReadKey();
                         Console.Clear();
